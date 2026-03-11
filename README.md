@@ -1,1 +1,1 @@
-# Data-structure-24
+#include <stdio.h>Int main(){Int book[5] = {10,20,30,40,50};Int low=0, high=4, mid, key=30;While(low<=high){Mid=(low+high)/2;If(book[mid]==key){Printf(“Book ID %d found at position %d”,key,mid+1);Break;}Else if(book[mid] < key)Low=mid+1;ElseHigh=mid-1;}Return 0;}OUTPUT Book ID 30 found at position 3
